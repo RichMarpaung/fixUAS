@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Card</title>
+    <style>
+       
+      body {
+        font-family: Arial, sans-serif;
+      }
+    
+      .menu-card {
+        /* margin-top: 50px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .menu-row {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%; /* Lebar menu card */
+      }
+      .menu-item {
+        background-color: rgba(255,255,255,0.9);
+        width: calc(30% - 10px); /* 3 item per baris dan jarak antar item */
+        margin: 5px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+      }
+      .menu-item img {
+        max-width: 100%;
+        height: auto;
+      }
+      .menu-item h3 {
+        margin-bottom: 10px;
+      }
+      .menu-item p {
+        margin-bottom: 5px;
+      }
+      .order-button {
+        background-color: #4caf50;
+        color: white;
+        padding: 8px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+
+</div>
+
+    <div class="menu-card">
+      <div class="menu-row">
+        <div class="menu-item">
+          <img src="img/Private Island in Chilean Patagonia.jpg" alt="Private Island in Chilean Patagonia" />
+          <p>$35,000,000.00</p>
+          <h3>Private Island in Chilean Patagonia</h3>
+          <a href="https://wa.me/+6283199554399"><button class="order-button">Order Now</button></a>
+          
+        </div>
+        <div class="menu-item">
+          <img src="img/Sumba Island Properties.jpeg" alt="Sumba Island Properties" />
+          <p>$Price Upon Request</p>
+          <h3>Sumba Island Properties</h3>
+          <a href="https://wa.me/+6283199554399"><button class="order-button">Order Now</button></a>
+          
+        </div>
+        <div class="menu-item">
+          <img src="img/Panjang Island.jpg" alt="Panjang Island" />
+          <p>$Price Upon Request</p>
+          <h3>Panjang Island</h3>
+
+          <a href="https://wa.me/+6283199554399"><button class="order-button">Order Now</button></a>
+          
+        </div>
+      </div>
+      <div class="menu-row">
+        <div class="menu-item">
+          <img src="img/long_coco_caye.jpeg" alt="Pulau 1" />
+          <p>$100,000,000.00</p>
+          <h3>Long Coco Caye</h3>
+          <a href="https://wa.me/+6283199554399"><button class="order-button">Order Now</button></a>
+          
+        </div>
+        <div class="menu-item">
+          <img src="img/Acre Island.jpg" alt="Pulau 2" />
+          <p>$60,000,000.00</p>
+          <h3>716-acre Island in Turneffe Atoll</h3>
+          <a href="https://wa.me/+6283199554399"><button class="order-button">Order Now</button></a>
+          
+        </div>
+        <div class="menu-item">
+          <img src="img/Amillarah Private Islands.jpg" alt="Amillarah Private Islands" />
+          <p>$Price Upon Request</p>
+          <h3>Amillarah Private Islands</h3>
+          <a href="https://wa.me/+6283199554399"><button class="order-button">Order Now</button></a>
+          
+        </div>
+      </div>
+      <div class="menu-row">
+        <div class="menu-item">
+          <img src="img/Villa Aquamaris.jpg" alt="Pulau 1" />
+          <p>$ 52,000,000.00</p>
+          <h3>Villa Aquamaris</h3>
+         <a href="https://wa.me/+6283199554399"><button class="order-button">Order Now</button></a>
+          
+        </div>
+        <div class="menu-item">
+          <img src="img/Royal Island.jpg" alt="Royal Island" />
+          <p>$45,000,000.00</p>
+          <h3>Royal Island</h3>
+          <a href="https://wa.me/+6283199554399"><button class="order-button">Order Now</button></a>
+          
+        </div>
+        <div class="menu-item">
+          <img src="img/HUMMINGBIRD CAY.jpg" alt="HUMMINGBIRD CAY" />
+          <p>$35,000,000.00</p>
+          <h3>HUMMINGBIRD CAY</h3>
+          <a href="https://wa.me/+6283199554399"><button class="order-button">Order Now</button></a>
+          
+        </div>
+      </div>
+      
+      <!-- Tambahkan baris menu lainnya di sini -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

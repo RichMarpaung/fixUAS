@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <style>
+       body {
+        margin: 0;
+        padding: 0;
+        background-image: url('img/bg.jpg'); /* Ganti 'pantai.jpg' dengan nama file gambar pantai Anda */
+            background-size: cover;
+        font-family: Arial, sans-serif;
+        background-color: #1f1f1f;
+        color: white;
+      }
+
+      .isi-kontak {
+        margin-top: 100px;
+        margin-left: 100px;
+        align-items: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+
+      .isi-kontak .kata-kata {
+        width: 300px;
+      }
+
+      .isi-kontak form {
+        width: 500px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      h3 {
+        font-size: 1.2em;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      input[type="text"],
+      input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+
+</div>
+    <div class="isi-kontak">
+      <div class="kata-kata">
+        <h1>Hi...</h1>
+        <h2>Ready To Make Your Dream Come True ?</h2>
+      </div>
+      <form action="">
+        <table>
+          <tr>
+            <td colspan="3">
+              <h3>Contact ME</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td>:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td><input type="email" /></td>
+          </tr>
+          <tr>
+            <td>No.Phone</td>
+            <td>:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+                <a href="https://wa.me/+6283199554399"><input type="submit" class="tombol" value="Submit" /></a>
+              
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
