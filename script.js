@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.appendChild(button);
 
     button.addEventListener("click", function (event) {
-      
+       alert("HALLO!!! Chat Ke WA!")
         event.preventDefault();
 
         window.open(button.href, button.target);
